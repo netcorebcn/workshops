@@ -85,6 +85,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>     
+                    <li>
+                        <a class="page-scroll" href="#customers">Customers</a>
                     </li>
                 </ul>
             </div>
@@ -163,7 +166,7 @@
                     <hr class="light" />
                     <p class="text-faded">Get up to speed with the new open source and cross platform .NET Core. Let's explore the .NET Core command-line (CLI) tooling and have full cross-platform experience with the C# integration in VS Code, thanks
                         to the <a href="http://www.omnisharp.net/" target="_blank">OmniSharp</a> project. We'll also learn what really is .NET Standard and the benefits it brings to the new .NET ecosystem. Last but not least, we will explore the main
-                        features of the lighter and faster ASP .NET Core and the new rewritten-from-scratch EF Core.
+                        features of the lighter and faster ASP .NET Core.
                     </p>
 
                     <h4>.NET Core introduction</h4>
@@ -172,23 +175,17 @@
                     <h4>.NET Core CLI</h4>
                     <p class="text-faded">Get familiar with the new .NET command line tooling, how it can be extended and clarifying all the different versions out there.</p>
 
+                    <h4>Project.csproj</h4>
+                    <p class="text-faded">Understanding the new project file is key in the new .NET Core platform, we must be able to change it by hand and use all the most important features that they provide.</p>
+
                     <h4>Cross platform development with VS Code</h4>
                     <p class="text-faded">Build, Run and Debug .NET projects in any platform with VSCode. Get acquanited with the omnisharp project and its cross-platform developer tools.</p>
-
-                    <h4>VS 2017 tooling</h4>
-                    <p class="text-faded">Experiment with the new integrated tooling full experience with .NET Core in Windows 10 with the latest VS 2017.</p>
 
                     <h4>.NET Standard</h4>
                     <p class="text-faded">Learn what .NET Standard is and why it's introduced at the same time as .NET Core. Learn the new way of code sharing in the .NET Ecosystem.</p>
 
-                    <h4>Project.csproj</h4>
-                    <p class="text-faded">Understanding the new project file is key in the new .NET Core platform, we must be able to change it by hand and use all the most important features that they provide.</p>
-
                     <h4>ASP .NET Core essentials</h4>
-                    <p class="text-faded">We will see the new architecture of ASP .NET Core based on Kestrel, middlewares and built-in dependency injection.</p>
-
-                    <h4>EF Core essentials</h4>
-                    <p class="text-faded">Although EF Core is still far from the battled tested EF 6.x, the new EF Core is rewritten from the ground, introducing nice interesting concepts like better SQL generation, shadow properties and collaborative EF Migrations.</p>
+                    <p class="text-faded">We will see the new architecture of ASP .NET Core based on Kestrel, middlewares and built-in configuration, logging and dependency injection.</p>
                 </div>
             </div>
             <div class="row workshop">
@@ -205,11 +202,8 @@
                     <h4>Public .NET Core Docker images</h4>
                     <p class="text-faded">Understand and run the different available Docker images for .NET Core runtime and SDK.</p>
 
-                    <h4>VS2017 integrated tooling for Docker and Azure Container Service</h4>
-                    <p class="text-faded">Understand the new VS 2017 tooling to develop local .NET Core application with Docker containers. Learn how to deploy and run at scale Docker containers with Azure Container Service.</p>
-
                     <h4>Continuos Integration and Delivery with Docker</h4>
-                    <p class="text-faded">Build a CI/CD pipeline for a simple ASP .NET Core application with Docker, Docker Cloud, Circle CI and GitHub.</p>
+                    <p class="text-faded">Build your own CI/CD pipeline for a simple ASP .NET Core application with Docker Multistage build and Docker Compose.</p>
                 </div>
             </div>
             <div class="row workshop">
@@ -222,9 +216,6 @@
 
                     <h4>From DDD to Microservices</h4>
                     <p class="text-faded">Before starting to write a single line of code, we must align our mental models about DDD and microservice architecture. We’ll take a look at the most common patterns in the DDD world and how they connect to microservices.</p>
-
-                    <h4>Domain Events and CQRS using a Message Broker</h4>
-                    <p class="text-faded">Undestand when and where to apply CQRS with Domain events building an small application with RabbitMQ, .NET Core and reactive extensions.</p>
 
                     <h4>Real Event Sourcing? You’re going to need an Event Store</h4>
                     <p class="text-faded">Event sourcing and event streaming is the karma of microservice architecture, but as usual, every decision in software development is a tradeoff. Understand the real benefits behind event sourcing and how to implement it using
@@ -271,7 +262,6 @@
             </div>
         </div>
     </section>
-
     <section id="contact" class="bg-primary">
         <div class="container">
             <div class="row">
@@ -311,7 +301,34 @@
             </div>
         </div>
     </section>
-
+    <section id="customers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Customers</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 text-center">
+                    <div class="customer-box">
+                        <img  class="customer-icon" src="img/softmachine.png" />
+                        <h3></h3>
+                        <p class="text-muted">“This was a great hands-on workshop! Very well done and very useful cutting edge knowledge delivered in an excellent and expert manner. I would highly recommend .NET Core Workshops to anyone interested in improving their technological skills into the modern .NET Core stack.”</p>    
+                    </div>
+                </div>
+                <div class="col-lg-6 md-6 text-center">
+                    <div class="customer-box">
+                        <img class="customer-icon" src="img/tokiota.png" />
+                        <h3></h3>
+                        <p class="text-muted">“It was a really deep dive into cross platform development with .NET Core, Visual Studio Code and Docker, the trainner showed really good knowlege and experience in the topic.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer id="footer" class="bg-primary footer">
         <div class="container">
             <div class="row">
