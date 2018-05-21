@@ -9,7 +9,7 @@
     <meta name="title" content=".NET Core Workshops in Barcelona">
     <meta name="description" content="We organise on-site workshops in tech companies for mid and senior .NET developers, providing them with a deeper look into the modern .NET Core stack.">
     <meta name="author" content=".NET Core Barcelona">
-    <meta name="keywords" content=".NET, .NET Core, Domain Driven Design, CQRS, Event Sourcing, Microservices, Microservice Architecture, Docker Containers, JavaScript, Workshop, Workshops">
+    <meta name="keywords" content=".NET, .NET Core, Domain Driven Design, CQRS, Event Sourcing, Microservices, Microservice Architecture, Docker Containers, Kubernetes, Workshop, Workshops">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -124,28 +124,28 @@
                     <div class="service-box">
                         <img class="skill-icon" src="img/netcore.svg" />
                         <h3>.NET Core</h3>
-                        <p class="text-muted">How to use modern open source cross-platform .NET runtime</p>
+                        <p class="text-muted">How to use modern open source cross-platform .NET SDK and Runtime</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <img class="skill-icon" src="img/docker.svg" />
+                        <img class="skill-icon" src="img/docker.png" />
                         <h3>Docker Containers</h3>
-                        <p class="text-muted">How to run each single application in isolated, lightweight, secured environment</p>
+                        <p class="text-muted">How to build and run each single application in isolated, lightweight, secured environment</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <img class="skill-icon" src="img/k8s.png" />
+                        <h3>Kubernetes</h3>
+                        <p class="text-muted">How to deploy and run containers in production using an orchestrator</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <span class="skill-text-icon text-primary fa-5x">DDD</span>
-                        <h3>Domain Driven Design</h3>
-                        <p class="text-muted">How to apply Domain Design principles in real world application using CQRS, Event Sourcing and Microservices</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <img class="skill-icon" src="img/js.svg" />
-                        <h3>JavaScript Applications</h3>
-                        <p class="text-muted">How to build rich single-page applications with modern frameworks such as React and Redux</p>
+                        <h3>Microservices</h3>
+                        <p class="text-muted">How to apply Domain Driven Design, CQRS and EventSourcing in real world applications</p>
                     </div>
                 </div>
             </div>
@@ -218,14 +218,28 @@
                     <h4>Public .NET Core Docker images</h4>
                     <p class="text-faded">Understand and run the different available Docker images for .NET Core runtime and SDK.</p>
 
-                    <h4>Continuos Integration and Delivery with Docker</h4>
+                    <h4>Continuous Integration and Delivery with Docker</h4>
                     <p class="text-faded">Build your own CI/CD pipeline for a simple ASP .NET Core application with Docker Multistage build and
                         Docker Compose.</p>
                 </div>
             </div>
             <div class="row workshop">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h3 class="section-heading text-center">Building Microservices with .NET Core and Docker</h3>
+                    <h3 class="section-heading text-center">Orchestrating with Kubernetes</h3>
+                    <hr class="light" />
+                    <p class="text-faded">
+                        Get started with the defacto standard for orchestrating, deploying and running containers in production.
+                    </p>
+                    <h4>Kubernetes essentials</h4>
+                    <p class="text-faded">Understand how the Kubernetes API works, creating and using the most common resources (deployments, services, pods, replica sets, ingress, ...).
+                    </p>
+                    <h4>Continuous Deployment with Kubernetes</h4>
+                    <p class="text-faded">Deploy resources to Kubernetes using the kubectl CLI and the Helm package manager.</p>
+                </div>
+            </div>
+            <div class="row workshop">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h3 class="section-heading text-center">Building Microservices with DDD, CQRS and EventSourcing</h3>
                     <hr class="light" />
                     <p class="text-faded">Understand and learn how to build small and scalable autonomous microservices with well-known patterns
                         like Domain Driven Design, CQRS and Event Sourcing. The main goal is to understand the benefits and
@@ -310,7 +324,8 @@
                             <select class="form-control" name="workshop" id="workshop-type">
                                 <option>.NET Core essentials</option>
                                 <option>Running .NET Core in Docker Containers</option>
-                                <option>Building Microservices with .NET Core</option>
+                                <option>Orchestrating with Kubernetes</option>
+                                <option>Building Microservices with DDD, CQRS and EventSourcing</option>
                                 <option>Customized workshop</option>
                             </select>
                         </div>
@@ -339,14 +354,23 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 text-center">
                     <div class="customer-box">
+                        <img class="customer-large-icon" src="img/roche.png" />
+                        <h3></h3>
+                        <p class="text-muted">"Great training, really good point of view for us and future developments that we have in mind, the training fits perfect for us. ”</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center">
+                    <div class="customer-box">
                         <img class="customer-icon" src="img/erni.jpg" />
                         <h3></h3>
                         <p class="text-muted">"Really practical workshop for getting started with .net core and docker in a few hours, the trainner perfectly combines both .NET Core expertise with a deep knowledge of docker. ”</p>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-6 col-md-6 text-center">
                     <div class="customer-box">
-                        <img class="customer-icon" src="img/softmachine.png" />
+                        <img class="customer-small-icon" src="img/softmachine.png" />
                         <h3></h3>
                         <p class="text-muted">“This was a great hands-on workshop! Very well done and very useful cutting edge knowledge delivered
                             in an excellent and expert manner. I would highly recommend .NET Core Workshops to anyone interested
