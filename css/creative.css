@@ -241,8 +241,14 @@ header .header-content .header-content-inner p {
 .customer-box p {
   margin-bottom: 0;
 }
+.customer-box .customer-large-icon {
+  height: 70px;
+}
 .customer-box .customer-icon {
-  height: 50px;
+  height: 45px;
+}
+.customer-box .customer-small-icon {
+  height: 35px;
 }
 .workshops .workshop {
   margin-bottom: 30px;
